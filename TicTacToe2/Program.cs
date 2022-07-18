@@ -36,7 +36,10 @@ for (int i = 0; i < 9; i++)
 
     }
 }      //print new line every 3rd parts
-         if(i
+        if(i == 2 || i == 5 || i == 8)
+    {
+        Console.WriteLine();
+    }
 
       
 
