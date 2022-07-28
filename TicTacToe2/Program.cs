@@ -13,6 +13,10 @@ board[7] = 0;
 board[8] = 1;
 
 int userTurn;
+int userTurn2;
+Random rand = new Random();
+
+
 while (true)
 {
 printBoard();
