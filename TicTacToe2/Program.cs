@@ -4,7 +4,7 @@ using Baseline.ImTools;
 int[] board = new int[9];
 board[0] = 0;
 board[1] = 0;
-board[2] = 0;
+board[2] = 1;
 board[3] = 0;
 board[4] = 2;
 board[5] = 0;
@@ -13,7 +13,7 @@ board[7] = 0;
 board[8] = 1;
 
 int userTurn;
-int userTurn2;
+int computerTurn;
 Random rand = new Random();
 
 
